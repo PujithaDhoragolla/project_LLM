@@ -149,7 +149,7 @@ A CSV file named **papers.csv** will be generated containing:
 - ✅ **GPT-4 summarization**
 - ✅ **CSV output generation**
 
-👉 **You have created a PROFESSIONAL-GRADE project** that can be showcased in your resume, portfolio, and interview! 🚀😎
+
 
 ---
 
