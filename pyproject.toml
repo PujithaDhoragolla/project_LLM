@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "pubmed-research-fetcher"
+version = "0.1.0"
+description = "A Python application to fetch PubMed papers with company-affiliated authors."
+authors = ["Your Name <your@email.com>"]
+readme = "README.md"
+packages = [{include = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.32.3"
+pandas = "1.5.3"
+numpy = "1.23.5"
+python-dotenv = "^1.0.1"
+openai = "^1.65.5"
+
+[tool.poetry.scripts]
+get-papers-list = "src.main:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
